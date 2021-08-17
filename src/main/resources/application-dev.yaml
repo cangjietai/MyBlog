@@ -1,0 +1,27 @@
+spring:
+#2,配置数据库
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC
+    username: root
+    password: 123456
+# 3,配置JPA ddl-auto: 编码时选update,每次链接数据库同步更新当前实体对象和数据库表间的映射
+# 上线时改为none,千万不要使用create,每次启动都会清除数据库，重新创建，容易丢失数据
+# show-sql:将sql语句输出到控制台及日志
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#4,配置日志
+logging:
+  level:
+    root: info
+    com.lst: debug
+  file:
+    name: log/blog-dev.log
+
+server:
+  port: 8080
+
+
+
