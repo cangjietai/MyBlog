@@ -2,7 +2,7 @@ spring:
 #2,配置数据库
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/garbage?serverTimezone=UTC
     username: root
     password: 123456
 # 3,配置JPA ddl-auto: 编码时选update,每次链接数据库同步更新当前实体对象和数据库表间的映射
@@ -12,6 +12,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
 #4,配置日志
 logging:
   level:

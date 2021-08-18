@@ -1,2 +1,6 @@
 com\lst\web\IndexController.class
+com\lst\aspect\LogAspect.class
+com\lst\handler\ControllerExceptionHandler.class
+com\lst\aspect\LogAspect$RequestLog.class
+com\lst\NotFoundException.class
 com\lst\BlogApplication.class
