@@ -187,8 +187,6 @@ i
 9.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml,8\f\8fc5d2d40c0337917aec553c9f42d0d3e8dab56d
 b
 2.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml,d\d\dd00f76e6580447e0e99dcde33f5776a9aacff27
-@
-log/blog-dev.log,8\6\8650d6b8435b4d8536759b2bf04493dc917c60a2
 8
 blog.iml,c\5\c5a86d7040a5f807a9a04b2d487b66b0641785aa
 7
