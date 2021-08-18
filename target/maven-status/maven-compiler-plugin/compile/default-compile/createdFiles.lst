@@ -1,6 +1,15 @@
 com\lst\web\IndexController.class
 com\lst\aspect\LogAspect.class
+com\lst\service\UserService.class
 com\lst\handler\ControllerExceptionHandler.class
+com\lst\pojo\Tag.class
 com\lst\aspect\LogAspect$RequestLog.class
+com\lst\web\admin\LoginController.class
+com\lst\pojo\Type.class
+com\lst\pojo\Blog.class
+com\lst\pojo\User.class
+com\lst\pojo\Comment.class
 com\lst\NotFoundException.class
 com\lst\BlogApplication.class
+com\lst\service\impl\UserServiceImpl.class
+com\lst\dao\UserRepository.class
