@@ -78,6 +78,25 @@
             <artifactId>commonmark-ext-heading-anchor</artifactId>
             <version>0.13.1</version>
         </dependency>
+
+
+        <!--引用commonmark和扩展插件,将Markdown转化为HTML-->
+        <dependency>
+            <groupId>com.atlassian.commonmark</groupId>
+            <artifactId>commonmark</artifactId>
+            <version>0.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.commonmark</groupId>
+            <artifactId>commonmark-ext-heading-anchor</artifactId>
+            <version>0.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atlassian.commonmark</groupId>
+            <artifactId>commonmark-ext-gfm-tables</artifactId>
+            <version>0.10.0</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

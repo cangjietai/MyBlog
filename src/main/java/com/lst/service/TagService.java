@@ -39,5 +39,7 @@ public interface TagService {
     List<Tag> listTag(String ids);
 
 
+    //获取前size个tag
+    List<Tag> listTagTop(Integer size);
 
 }

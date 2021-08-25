@@ -34,4 +34,7 @@ public interface TypeService {
     //删除Type
     void deleteType(Long id);
 
+    //获取前size个type
+    List<Type> listTypeTop(Integer size);
+
 }

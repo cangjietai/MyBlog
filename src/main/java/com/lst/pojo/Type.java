@@ -12,7 +12,7 @@ import java.util.List;
  */
 @Entity
 @Table(name="t_type")
-public class Type {
+public class  Type {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

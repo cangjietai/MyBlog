@@ -35,8 +35,6 @@ public class Blog {
     @Transient
     private String tagIds;
 
-
-
     @ManyToOne
     private Type type;
 
